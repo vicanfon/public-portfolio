@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name | EU Innovation & AI Portfolio</title>
-  <meta name="description" content="Personal portfolio focused on EU proposal development, AI-enabled innovation, and technical project strategy." />
+  <title>Victor Anaya | Uncertainty-Aware Decision Support</title>
+  <meta name="description" content="I design uncertainty-aware decision systems that connect simulations, digital twins and business dashboards." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="index.html">Your Name</a>
-      <nav>
-        <a href="index.html">Home</a>
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>Victor Anaya</a>
+      <nav aria-label="Primary navigation">
+        <a href="index.html" aria-current="page">Home</a>
         <a href="expertise.html">Expertise</a>
         <a href="case-study.html">Case Study</a>
         <a href="articles/index.html">Articles</a>
@@ -22,69 +22,83 @@
   </header>
 
   <main>
-    <section class="hero container">
-      <div>
-        <p class="eyebrow">EU Projects • AI Systems • Proposal Strategy</p>
-        <h1>Personal portfolio for innovation, funding, and technical delivery.</h1>
-        <p class="lead">
-          I work at the intersection of European project development, AI-enabled solutions,
-          and structured technical communication. This site highlights selected expertise,
-          public-facing project themes, and example case material.
-        </p>
-        <div class="cta-row">
-          <a class="button" href="expertise.html">View Expertise</a>
-          <a class="button button-secondary" href="case-study.html">Read Case Study</a>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Decision intelligence · Digital twins · Explainable AI</span>
+          <h1>Make better decisions when forecasts and operating conditions are uncertain.</h1>
+          <p class="lead">I design and prototype uncertainty-aware decision systems that connect simulations, digital twins and planning models with clear, traceable business dashboards.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="case-study.html">Explore the synthetic demonstrator</a>
+            <a class="button button-secondary" href="expertise.html">View my expertise</a>
+          </div>
+        </div>
+        <div class="card">
+          <span class="tag">What I help answer</span>
+          <h2 style="font-size:2rem; margin-top:18px;">Is the preferred option robust?</h2>
+          <p class="muted">I help organisations understand what could change a decision, which assumptions matter most, where additional evidence has value, and how to preserve an auditable record of the analysis.</p>
         </div>
       </div>
-      <div class="card">
-        <h2>Focus Areas</h2>
-        <ul>
-          <li>EU grant and proposal development</li>
-          <li>AI and data-driven innovation</li>
-          <li>Project design and partner coordination</li>
-          <li>Technical documentation and impact framing</li>
-        </ul>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Core capabilities</span>
+          <h2>From specialist models to understandable decisions</h2>
+          <p>I do not replace domain models. I build the integration, uncertainty-analysis and decision-support layer around them.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card"><div class="card-icon">1</div><h3>Scenario and simulation orchestration</h3><p>Structured inputs, repeatable scenario generation, model execution, run tracking and reproducible evidence.</p></article>
+          <article class="card"><div class="card-icon">2</div><h3>Risk, sensitivity and safe AI</h3><p>Identify influential assumptions, estimate outcome ranges and use machine learning with confidence checks and direct-model fallback.</p></article>
+          <article class="card"><div class="card-icon">3</div><h3>Business-facing decision dashboards</h3><p>Compare alternatives, explain downside exposure, show conditions that could change the recommendation and retain human control.</p></article>
+        </div>
       </div>
     </section>
 
-    <section class="container grid-3">
-      <article class="card">
-        <h3>Funding Strategy</h3>
-        <p>
-          Building proposal narratives that connect excellence, impact, implementation,
-          consortium strength, and realistic work planning.
-        </p>
-      </article>
-      <article class="card">
-        <h3>Technical Positioning</h3>
-        <p>
-          Translating complex AI, data, and automation topics into clear value propositions
-          for evaluators, partners, and stakeholders.
-        </p>
-      </article>
-      <article class="card">
-        <h3>Public Portfolio</h3>
-        <p>
-          Sharing only high-level marketing content, case overviews, and non-confidential
-          material suitable for a static public website.
-        </p>
-      </article>
+    <section class="section section-white">
+      <div class="container case-study-grid">
+        <div>
+          <span class="eyebrow">Featured synthetic case study</span>
+          <h2>NorthStar Distribution Network Expansion</h2>
+          <p class="lead">A fictional planning case showing how a single forecast can be expanded into a transparent comparison across uncertain demand, operating costs and disruption conditions.</p>
+          <div class="feature-list">
+            <div class="feature-item"><span class="feature-icon">1</span><div><strong>Compare plausible futures</strong><p>Test three strategic options against changing demand, cost and disruption assumptions.</p></div></div>
+            <div class="feature-item"><span class="feature-icon">2</span><div><strong>Identify risk drivers and vulnerabilities</strong><p>Show which assumptions, facilities and links most affect cost and service.</p></div></div>
+            <div class="feature-item"><span class="feature-icon">3</span><div><strong>Create an auditable decision record</strong><p>Preserve scenarios, model versions, outputs, evidence and limitations.</p></div></div>
+          </div>
+          <div class="cta-row"><a class="button button-primary" href="case-study.html">Read the case study</a></div>
+        </div>
+        <figure>
+          <div class="dashboard-preview">
+            <img src="assets/images/uncertainty-engine-dashboard.png" alt="Decision dashboard comparing three distribution strategies under uncertainty" />
+          </div>
+          <figcaption class="dashboard-caption">Synthetic NorthStar demonstrator. Illustrative TRL 3 results; not operational or investment advice.</figcaption>
+        </figure>
+      </div>
     </section>
 
-    <section class="container section">
-      <h2>About</h2>
-      <p>
-        This portfolio is designed as a lightweight public presence. It showcases professional
-        expertise, selected project themes, and communication strengths without exposing private
-        source code, internal methods, or restricted proposal materials.
-      </p>
+    <section class="section">
+      <div class="container">
+        <div class="section-heading"><span class="eyebrow">Where it applies</span><h2>Generic methods for simulation-intensive decisions</h2></div>
+        <div class="grid-4">
+          <div class="metric-card"><span class="metric-value">Energy</span><span class="metric-label">Planning and infrastructure</span></div>
+          <div class="metric-card"><span class="metric-value">Industry</span><span class="metric-label">Manufacturing and maintenance</span></div>
+          <div class="metric-card"><span class="metric-value">Logistics</span><span class="metric-label">Capacity and network resilience</span></div>
+          <div class="metric-card"><span class="metric-value">R&amp;I</span><span class="metric-label">TRL 3 demonstrators and EU projects</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-tight">
+      <div class="container callout">
+        <h2>Working with a model whose result depends heavily on uncertain assumptions?</h2>
+        <p>I am interested in technical leadership roles, research collaborations, digital-twin projects and proof-of-concept work involving uncertainty-aware decision support.</p>
+        <div class="cta-row"><a class="button button-secondary" href="mailto:your-email@example.com">Discuss a decision under uncertainty</a></div>
+      </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>© 2026 Your Name. Built as a static GitHub Pages site.</p>
-    </div>
-  </footer>
+  <footer class="site-footer"><div class="container footer-grid"><span>© 2026 Victor Anaya</span><span>Personal portfolio · Synthetic public examples only</span></div></footer>
 </body>
 </html>
